@@ -1,0 +1,36 @@
+
+/* Default styles for the body */
+body {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    color: white;
+    font-size: 14px;
+  }
+}
+
+/* Styles for screens between 600px and 1200px */
+@media (min-width: 600px) and (max-width: 1200px) {
+  body {
+    background-color: lightgreen;
+    color: black;
+    font-size: 18px;
+  }
+}
+
+/* Styles for screens larger than 1200px */
+@media (min-width: 1200px) {
+  body {
+    background-color: lightgray;
+    color: black;
+    font-size: 20px;
+  }
+}
+
+
